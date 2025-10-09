@@ -2,8 +2,6 @@
 
 using Plots 
 
-
-
 #Question 1
 function odd_or_even(n::Int)
     if n % 2 == 0
@@ -39,6 +37,7 @@ function count_positives(A::Array)
     return count(x -> x > 0, A)
 end
 
+#Question 5
 function plot_powers(n)
     x = -10:10
     plt = plot(
@@ -58,8 +57,6 @@ function plot_powers(n)
     return plt
 end
 
-# Usage example:
-my_plot = plot_powers(2)
-display(my_plot)
+
 
       
