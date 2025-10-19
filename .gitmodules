@@ -1,0 +1,3 @@
+[submodule "QEcon2025"]
+	path = QEcon2025
+	url = https://github.com/pzoch/QEcon2025.git
